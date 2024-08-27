@@ -5,7 +5,7 @@
 
 ## Listado de Entidades
 
-### carreras **ED** <!--  Entidad de Datos -->
+### carreras **(ED)** <!--  Entidad de Datos -->
 
 - carrera_id **(PK)**
 - carrera_nombre
@@ -36,3 +36,8 @@
 - **ED** Entidad de Datos
 - **EP** Entidad Pivote
 - **EC** Entidad Catálogo
+
+## Relaciones
+
+1. Una **carrera** _Pertenece_ a un tipo de carrera. (1 a 1)
+1. Una **carrera** se _corre_ en un pais. (1 a 1)
