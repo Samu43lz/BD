@@ -22,7 +22,7 @@
 
 - tipo_carrera_id **(PK)**
 - descripcion
-- distancia
+- distancia **(UQ)**
 
 ### Paises **(EC)** <!-- Entidad Catalogo -->
 
@@ -42,3 +42,13 @@
 
 1. Una **carrera** _Pertenece_ a un tipo de carrera. (1 a 1)
 1. Una **carrera** se _corre_ en un pais. (1 a 1)
+
+## Diagramas
+
+### Modelo Entidad Relación
+
+![Modelo Entidad Relación](Modelo_E-R.png)
+
+### Modelo Relacional de la Base de Datos
+
+![M.Relacional de la Base de Datos](CarrerasMRelacionalBD.png)
