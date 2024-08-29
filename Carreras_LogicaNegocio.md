@@ -65,6 +65,7 @@
 
 ### tipos_carreras
 
+1. Todos los valores del atributo distancia, deberan estar expresados en _KM_ y no se podran repetir
 1. Crear el registro de un tipo de carrera.
 1. Leer el registro de un(os) tipo(s) de carrera(s) dada una condición en particular.
 1. Leer todos registros de la entidad tipos de carreras.
