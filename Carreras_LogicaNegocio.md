@@ -34,9 +34,9 @@
 - **PK** _Primary Key_
 - **FK** _Foreign Key_
 - **UQ** _Unique Attribute_
-- **ED** Entidad de Datos
-- **EP** Entidad Pivote
-- **EC** Entidad Catálogo
+- **ED** Entidad de Datos <!--  Con este constantemente vamos a cambiar o alterar sus datos  -->
+- **EP** Entidad Pivote <!-- Vinculan la información de 2 o más tablas  -->
+- **EC** Entidad Catálogo <!-- Dificilmente se va cambiar ó alterar su información -->
 
 ## Relaciones
 
