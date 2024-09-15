@@ -76,7 +76,6 @@
 ## Relaciones
 
 <!-- Una pelicula tiene un pais, pero un pais puede tener varias peliculas -->
-
 1. Una **pelicula** tiene un **pais** (_M - 1_)
 <!-- Una serie tiene un pais, pero un pais tiene varias series -->
 1. Una **serie** tiene un **pais** (_M - 1_)
