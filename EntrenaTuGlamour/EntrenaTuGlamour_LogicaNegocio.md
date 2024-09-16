@@ -114,6 +114,39 @@ una formulación clara y precisa de las relaciones en el diseño de bases de dat
 
 ![Modelo Relacional](EntrenaTuGlamourMRelacionalBD.png)
 
-## Reglas de Negocio
+## Reglas de Negocio (CRUD)
 
+### actividades
 
+1. Crear una actividad.
+1. Leer todas las actividades.
+1. Leer una actividad en particular.
+1. Actualizar una actividad.
+1. Eliminar una actividad.
+
+### participantes
+
+1. Crear un participante.
+1. Leer todos los participantes.
+1. Leer un participante en particular.
+1. Actualizar un participante.
+1. Eliminar un participante.
+
+### registros
+
+1. Crear un registro.
+1. Leer todos los registros.
+1. Leer un registro en particular.
+1. Actualizar un registro.
+1. Eliminar un registro.
+
+### Lógica y Validaciones de Requisitos
+
+- Registrar un participante implica :
+  - Validar cupo de la actividad.
+  - Insertar datos a las entidades participantes y registros.
+  - Restarle uno al atributo cupo de la entidad actividades.
+- Listar registros.
+- Eliminar participante .implica:
+  - Eliminar datos a las entidades participantes y registros.
+  - Sumarle uno al atributo cupo de la entidad actividades.
